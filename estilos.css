@@ -1,0 +1,66 @@
+body {
+    background: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1000px;
+    margin: auto;
+}
+a {
+    text-decoration: line-through;
+    color: #03010a;
+}
+
+#title, .subtitle, .post_title{
+    color: #808080;
+    margin: auto;
+    padding: 10px;
+
+}
+#title{
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.post_title{
+    font-size: 16;
+    font-style: italic;
+    text-align: center;
+}
+.post{
+    background: #f5f0f0;
+    padding: 10px; 
+    border: 3px solid #000;
+    margin: 10px;
+}
+.photo_paragraph{
+    width: 100%;
+    margin:auto;
+    text-transform: capitalize;
+    
+}
+.text{
+    margin: 10px;
+    text-align: justify ;
+    font-weight: bold;
+}
+.teclado{
+    padding: 10px;
+    border-radius: 10px;
+    border:5px solid #000;
+}
+.photo_my{
+    border-radius: 50px;
+    border: 1px solid #000;
+}
+.context_list{
+    list-style-image: url("colocaralgumaurl.png");
+    list-style-type:upper-alpha;
+    padding: auto;
+    
+}
+.context_list li a{
+    color: #0000ff;
+    padding: 10px;
+}
+.context_listnotorder{
+    list-style-type:square;
+}
